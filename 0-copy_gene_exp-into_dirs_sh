@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+mkdir ./FPKM
+for d in ./*/
+do
+     (cd "$d" && cp *.gz ../FPKM)
+done
+
+# then uncompress
+cd ./FPKM && \
+gunzip *.gz ;
