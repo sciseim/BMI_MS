@@ -7,10 +7,13 @@ Inge Seim, Penny L. Jeffery, Lisa K. Chopin. *Gene expression profiling of The C
 *`0-copy_gene_exp-into_dirs_sh`*:
 - use this to x GDC downloaded data and copy files to the directory ./FPKM-UQ/FPKM
 - GDC data was downloaded and copied into the folder FPKM-UQ (downloaded 03.05.2018)
-- will obtain *`FPKM-UQ.tar.gz`* (1.62 GB)
+- will obtain *`FPKM-UQ.tar.gz`* (1.62 GB). For your convenience, this file is available at 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1322358.svg)](https://doi.org/10.5281/zenodo.1322358)
+
 -- Please uncompress this to obtain GDC data (FPKM-UQ downloaded 03.05.2018).
 
-*`scripts 1 to 24 are used for various downstream analyses`*:
+
+*`Scripts 1 to 24 are used for various downstream analyses`*:
 - `1-parse-gene-exp-data.R`
 - `2-load-sample-data.R`
 - `3-ensure-geneEXPdf-can-see-SampleInfoDF.R`
